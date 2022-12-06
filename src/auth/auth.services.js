@@ -1,4 +1,4 @@
-const checkUserCredentials = require('./auth.controllers')
+const checkUserCredentials = require('./auth.controller')
 const jwt = require('jsonwebtoken')
 const jwtSecret = require('../../config').api.jwtSecret
 
